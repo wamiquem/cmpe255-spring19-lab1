@@ -50,7 +50,7 @@ def num_friends(user, flag):
     if num_of_friends == 1:
         friend_tag = "friend"
     if flag == True:
-        print("**Number of Friends**")
+        print("*******Number of Friends*******")
         print(user + " has %d " %num_of_friends + friend_tag)
     
     #returning num_of_friends to reuse this method in the method sort_by_num_friends() 
@@ -72,7 +72,7 @@ def sort_by_num_friends():
     #sort the list sorted_friends_list by using the library method sort(). reverse=True for descending sort
     sorted_friends_list.sort(reverse=True)
     
-    print("**Sorting - Max to min Friends**")
+    print("\n*******Sorting - Max to min Friends*******")
     for friend in sorted_friends_list:
         friend_tag = "friends"
         if friend[0] == 1:
